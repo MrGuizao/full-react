@@ -8,6 +8,8 @@
 }
 .app {
      width: 100%;
-     min-height: 100vh;
-     background-color: #eee;
+     display: grid;
+     grid-auto-rows: auto;
+     grid-auto-columns: auto;
+     gap: 5px;
 }

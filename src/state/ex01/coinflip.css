@@ -1,9 +1,8 @@
 .coinflip {
      margin: 0 auto;
-     width: 400px;
      height: auto;
      text-align: center;
-     padding: 20px;
+     padding: 10px;
      background-color: #fff;
 }
 .coinflip button {
@@ -17,6 +16,6 @@
      font-weight: 600;
 }
 .coinflip img {
-     width: 185px;
-     height: 170px;
+     width: 100px;
+     height: 87px;
 }
