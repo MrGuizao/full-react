@@ -6,10 +6,20 @@
      text-decoration: none;
      box-sizing: border-box;
 }
-.app {
+.full {
      width: 100%;
-     display: grid;
-     grid-auto-rows: auto;
-     grid-auto-columns: auto;
-     gap: 5px;
+     height: 1500px;
+     padding: 50px 0;
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center;
+     align-items: center;
+}
+button {
+     border-radius: 6px;
+     background-color: #a0ea63;
+     cursor: pointer;
+     border: 1px solid #76e21d;
+     padding: 8px 20px;
+     font-weight: 600;
 }

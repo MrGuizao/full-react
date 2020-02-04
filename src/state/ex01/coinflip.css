@@ -1,6 +1,6 @@
 .coinflip {
-     margin: 0 auto;
-     height: auto;
+     width: 500px;
+     height: 500px;
      text-align: center;
      padding: 10px;
      background-color: #fff;
@@ -12,6 +12,8 @@
      border: 1px solid #76e21d;
 }
 .coinflip p, button {
+     padding: 8px 20px;
+     font-weight: 600;
      padding: 8px 20px;
      font-weight: 600;
 }

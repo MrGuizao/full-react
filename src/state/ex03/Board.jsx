@@ -77,8 +77,8 @@ export default class Board extends Component {
      render() {
           return (
                <div className="container">
-                    <h1 class="neon">LIGHTS </h1>
-                    <h1 class="flux">OUT </h1>
+                    <h1 className="neon">LIGHTS </h1>
+                    <h1 className="flux">OUT </h1>
                     {this.state.hasWon ? (
                          <div className="winner">
                               <span className="neon-orange">YOU</span>

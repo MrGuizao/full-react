@@ -13,6 +13,36 @@ export default class ColorBoard extends Component {
                <div className="board">
                     {/* EXERCICIO 02 */}
                     <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+                    <ColorBox color={this.changeColor} />
+
                </div>
           );
      }
