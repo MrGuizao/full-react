@@ -5,6 +5,7 @@
      list-style: none;
      text-decoration: none;
      box-sizing: border-box;
+     text-align: center;
 }
 .full {
      width: 100%;
@@ -22,4 +23,13 @@ button {
      border: 1px solid #76e21d;
      padding: 8px 20px;
      font-weight: 600;
+}
+h1 {
+     margin: 30px 0;
+}
+.bordas {
+     margin: 20px 0;
+     padding: 20px 40px;
+     border: 1px solid black;
+     border-radius: 10px;
 }

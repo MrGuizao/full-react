@@ -7,6 +7,7 @@ import Board from "./state/ex03/Board";
 import Form from "./forms/ex01/Form";
 import Forme from "./forms/exemplo/Forme";
 import Formulario from "./forms/exemplo2/Formulario";
+import TodoList from "./forms/ex03/TodoList";
 
 export default class App extends Component {
      render() {
@@ -19,6 +20,7 @@ export default class App extends Component {
                     <Form />
                     <Forme />
                     <Formulario />
+                    <TodoList />
                </div>
           );
      }
