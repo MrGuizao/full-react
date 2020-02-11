@@ -18,7 +18,7 @@ export default class Forme extends Component {
           return (
                <ul>
                     {this.state.items.map(item => (
-                         <li>
+                         <li key={Math.random()}>
                               {item.name}: {item.age}
                          </li>
                     ))}

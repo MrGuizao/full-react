@@ -16,7 +16,7 @@ export default class Formulario extends Component {
 
      render() {
           return (
-               <form onSubmit={this.submit}>
+               <form onSubmit={this.submit} className="bordas">
                     <input
                          type="text"
                          name="adress"
