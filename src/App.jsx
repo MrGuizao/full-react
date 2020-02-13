@@ -8,6 +8,7 @@ import Form from "./forms/ex01/Form";
 import Forme from "./forms/exemplo/Forme";
 import Formulario from "./forms/exemplo2/Formulario";
 import TodoList from "./forms/ex03/TodoList";
+import TodoApp from "./hooks/ex01/TodoApp";
 
 export default class App extends Component {
      render() {
@@ -21,6 +22,8 @@ export default class App extends Component {
                     <Forme />
                     <Formulario />
                     <TodoList />
+                    <h1>HOOKS</h1>
+                    <TodoApp />
                </div>
           );
      }
