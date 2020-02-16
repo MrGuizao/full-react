@@ -9,6 +9,7 @@ import Forme from "./forms/exemplo/Forme";
 import Formulario from "./forms/exemplo2/Formulario";
 import TodoList from "./forms/ex03/TodoList";
 import TodoApp from "./hooks/ex01/TodoApp";
+import ApiPlaceholder from "./hooks/ex02/ApiPlaceholder";
 
 export default class App extends Component {
      render() {
@@ -24,6 +25,7 @@ export default class App extends Component {
                     <TodoList />
                     <h1>HOOKS</h1>
                     <TodoApp />
+                    <ApiPlaceholder />
                </div>
           );
      }
