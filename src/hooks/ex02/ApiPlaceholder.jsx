@@ -9,7 +9,6 @@ export default function ApiPlaceholder() {
           const response = await fetch("https://jsonplaceholder.typicode.com/posts");
           const data = await response.json();
           setBody(data);
-          console.log(data)
 
      }
      useEffect(() => {
@@ -17,7 +16,7 @@ export default function ApiPlaceholder() {
      }, []);
 
      return (
-          <div className="bordas">
+          <div className="bordas alldark">
                <ApiItems item={body}/>
           </div>
      );

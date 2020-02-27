@@ -6,7 +6,7 @@ import TodoForm from "./TodoForm";
 export default function TodoApp() {
      const initialState = [
           { id: 1, task: "Workship God", completed: false },
-          { id: 1, task: "Workship my Ass", completed: false }
+          { id: 2, task: "Workship my Ass", completed: false }
      ];
      const [todos, setTodos] = useState(initialState);
 

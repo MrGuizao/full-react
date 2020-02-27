@@ -10,6 +10,7 @@ import Formulario from "./forms/exemplo2/Formulario";
 import TodoList from "./forms/ex03/TodoList";
 import TodoApp from "./hooks/ex01/TodoApp";
 import ApiPlaceholder from "./hooks/ex02/ApiPlaceholder";
+import MovieList from './context/ex01/MovieList'
 
 export default class App extends Component {
      render() {
@@ -26,6 +27,8 @@ export default class App extends Component {
                     <h1>HOOKS</h1>
                     <TodoApp />
                     <ApiPlaceholder />
+                    <h1>CONTEXT</h1>
+                    {/* <MovieList /> */}
                </div>
           );
      }
