@@ -11,6 +11,7 @@ import TodoList from "./forms/ex03/TodoList";
 import TodoApp from "./hooks/ex01/TodoApp";
 import ApiPlaceholder from "./hooks/ex02/ApiPlaceholder";
 import MovieList from './context/ex01/MovieList'
+import Security from "./lasttest/Security";
 
 export default class App extends Component {
      render() {
@@ -29,6 +30,7 @@ export default class App extends Component {
                     <ApiPlaceholder />
                     <h1>CONTEXT</h1>
                     {/* <MovieList /> */}
+                    <Security />
                </div>
           );
      }
